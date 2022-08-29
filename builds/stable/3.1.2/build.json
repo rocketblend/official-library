@@ -1,11 +1,10 @@
 {
     "args": "",
-    "description": "",
     "source": [
         {
             "platform": "windows",
             "executable" : "blender-3.1.2-windows/blender.exe",
-            "url" : "https://github.com/rocketblend/official-library/builds/stable/3.1.2/blender-3.1.2-windows-x64.zip"
+            "url" : "https://github.com//rocketblend/official-library/raw/df52b46e9774208633e6ca60f57df33656253aba/builds/stable/3.1.2/blender-3.1.2-windows-x64.zip"
         }
     ],
     "packages": []
