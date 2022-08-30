@@ -7,7 +7,5 @@
             "url" : "https://github.com//rocketblend/official-library/raw/df52b46e9774208633e6ca60f57df33656253aba/builds/stable/3.2.2/blender-3.2.2-windows-x64.zip"
         }
     ],
-    "packages": [
-        "github.com/rocketblend/official-library/packages/rocketblend/1.0.0"
-    ]
+    "packages": []
 }
