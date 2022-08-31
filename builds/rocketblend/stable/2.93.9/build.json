@@ -1,0 +1,14 @@
+{
+    "reference": "github.com/rocketblend/offical-library/builds/rocketblend/stable/2.93.9",
+    "args": "",
+    "source": [
+        {
+            "platform": "windows",
+            "executable" : "blender-2.93.9-windows-x64/blender.exe",
+            "url" : "https://download.blender.org/release/Blender2.93/blender-2.93.9-windows-x64.zip"
+        }
+    ],
+    "packages": [
+        "github.com/rocketblend/offical-library/packages/rocketblend/stable/0.1.0"
+    ]
+}
