@@ -1,5 +1,5 @@
 {
-    "reference": "github.com/rocketblend/offical-library/builds/rocketblend/stable/3.2.2",
+    "reference": "github.com/rocketblend/official-library/builds/rocketblend/stable/3.2.2",
     "args": "",
     "source": [
         {
@@ -9,6 +9,6 @@
         }
     ],
     "packages": [
-        "github.com/rocketblend/offical-library/packages/rocketblend/stable/0.1.0"
+        "github.com/rocketblend/official-library/packages/rocketblend/stable/0.1.0"
     ]
 }
