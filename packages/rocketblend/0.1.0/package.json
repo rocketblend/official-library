@@ -1,4 +1,7 @@
 {
     "reference": "github.com/rocketblend/official-library/packages/rocketblend/0.1.0",
-    "source": "https://github.com/rocketblend/rocketblend-package/releases/download/v0.1.0/rocketblend-companion.zip"
+    "source" : {
+        "file" : "rocketblend-companion.zip",
+        "url" : "https://github.com/rocketblend/rocketblend-package/releases/download/v0.1.0/rocketblend-companion.zip"
+    }
 }
