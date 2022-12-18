@@ -1,0 +1,18 @@
+library: github.com/rocketblend/official-library
+collector:
+  proxy: https://proxy.blender.org
+  agent: random
+  parallelism: 2
+  delay: 2s
+collections:
+  - name: blender
+    platforms:
+      - 1
+      - 2
+      - 3
+      - 4
+  - name: rocketblend
+    platforms:
+      - 1
+    packages:
+      - github.com/rocketblend/official-library/packages/rocketblend/0.1.0
