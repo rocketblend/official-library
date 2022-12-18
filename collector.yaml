@@ -1,7 +1,5 @@
 library: github.com/rocketblend/official-library
 collector:
-  proxy: https://proxy.blender.org
-  agent: random
   parallelism: 2
   delay: 2s
 collections:
