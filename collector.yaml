@@ -1,0 +1,20 @@
+library: github.com/rocketblend/official-library
+collector:
+  agent: random
+  parallelism: 2
+  delay: 5s
+collections:
+  - name: blender
+    platforms:
+      - windows
+      - linux
+      - macos/intel
+      - macos/apple
+  - name: rocketblend
+    platforms:
+      - windows
+      - linux
+      - macos/intel
+      - macos/apple
+    packages:
+      - github.com/rocketblend/official-library/packages/rocketblend/0.1.0
