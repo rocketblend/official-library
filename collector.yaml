@@ -17,4 +17,4 @@ collections:
       - macos/intel
       - macos/apple
     packages:
-      - github.com/rocketblend/official-library/packages/rocketblend/0.1.0
+      - github.com/rocketblend/official-library/packages/rocketblend/0.1.1
