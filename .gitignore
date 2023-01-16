@@ -3,3 +3,7 @@
 
 # direnv
 .envrc
+
+# Hack to not include the actual build/addon files
+*/*/*/*/*/
+*/*/*/*.zip
