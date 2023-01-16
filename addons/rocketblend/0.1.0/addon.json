@@ -1,8 +1,0 @@
-{
-    "name": "rocketblend-companion",
-    "addonVersion": "0.1.0",
-    "source": {
-        "file": "rocketblend-companion.zip",
-        "url": "https://github.com/rocketblend/rocketblend-package/releases/download/v0.1.0/rocketblend-companion.zip"
-    }
-}
