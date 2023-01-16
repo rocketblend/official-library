@@ -2,7 +2,7 @@
 
 Official build and addon library for [RocketBlend](https://github.com/rocketblend/rocketblend)
 
-## Stable Builds
+## Example Builds
 
 * `github.com/rocketblend/official-library/builds/blender/stable/2.93.9`
 * `github.com/rocketblend/official-library/builds/blender/stable/3.0.1`
