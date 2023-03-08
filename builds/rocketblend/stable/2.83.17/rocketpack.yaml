@@ -1,0 +1,14 @@
+build:
+  addons:
+  - github.com/rocketblend/official-library/addons/rocketblend/0.1.1
+  sources:
+  - executable: blender-2.83.17-linux-x64/blender
+    platform: linux
+    url: https://download.blender.org/release/Blender2.83/blender-2.83.17-linux-x64.tar.xz
+  - executable: Blender.app/Contents/MacOS/blender
+    platform: macos/intel
+    url: https://download.blender.org/release/Blender2.83/blender-2.83.17-macos-x64.dmg
+  - executable: blender-2.83.17-windows-x64/blender.exe
+    platform: windows
+    url: https://download.blender.org/release/Blender2.83/blender-2.83.17-windows-x64.zip
+  version: 2.83.17
