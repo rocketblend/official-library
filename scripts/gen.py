@@ -1,3 +1,6 @@
+import pip
+pip.main(['install', 'PyYAML', '--user'])
+
 import bpy
 import os
 import re
