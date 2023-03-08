@@ -29,11 +29,11 @@ collections:
       - github.com/rocketblend/addons/blender/wavefront-obj-format-legacy/preinstalled
       - github.com/rocketblend/addons/blender/cycles-render-engine/preinstalled
       - github.com/rocketblend/addons/blender/web3d-x3dvrml2-format/preinstalled
-  - name: rocketblend
-    platforms:
-      - windows
-      - linux
-      - macos/intel
-      - macos/apple
-    addons:
-      - github.com/rocketblend/official-library/addons/rocketblend/0.1.1
+  # - name: rocketblend
+  #   platforms:
+  #     - windows
+  #     - linux
+  #     - macos/intel
+  #     - macos/apple
+  #   addons:
+  #     - github.com/rocketblend/official-library/addons/rocketblend/0.1.1
