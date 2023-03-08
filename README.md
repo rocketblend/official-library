@@ -13,10 +13,6 @@ Official build and addon library for [RocketBlend](https://github.com/rocketblen
 
 See builds directory for all available builds. [link](https://github.com/rocketblend/official-library/tree/master/builds/blender/stable)
 
-## Addons
-
-* `github.com/rocketblend/official-library/addons/rocketblend/0.1.1` - **WIP**
-
 ## Tools
 
 All build packages are generated using [Collector](https://github.com/rocketblend/rocketblend-collector)
