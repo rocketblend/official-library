@@ -9,7 +9,7 @@ if bpy.app.background:
     import yaml
     from addon_utils import modules
 
-    TAG = "preinstalled"
+    TAG = "pre-installed"
     PACKAGEFILE = "rocketpack.yaml"
 
     def make_friendly(s):

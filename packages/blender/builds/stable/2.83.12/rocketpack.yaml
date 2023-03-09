@@ -1,25 +1,25 @@
 build:
   addons:
-  - github.com/official-library/rocketblend/blender/addons/pose-library/preinstalled
-  - github.com/official-library/rocketblend/blender/addons/biovision-motion-capture-bvh-format/preinstalled
-  - github.com/official-library/rocketblend/blender/addons/fbx-format/preinstalled
-  - github.com/official-library/rocketblend/blender/addons/stl-format/preinstalled
-  - github.com/official-library/rocketblend/blender/addons/scalable-vector-graphics-svg-11-format/preinstalled
-  - github.com/official-library/rocketblend/blender/addons/stanford-ply-format/preinstalled
-  - github.com/official-library/rocketblend/blender/addons/uv-layout/preinstalled
-  - github.com/official-library/rocketblend/blender/addons/wavefront-obj-format-legacy/preinstalled
-  - github.com/official-library/rocketblend/blender/addons/gltf-20-format/preinstalled
-  - github.com/official-library/rocketblend/blender/addons/wavefront-obj-format-legacy/preinstalled
-  - github.com/official-library/rocketblend/blender/addons/cycles-render-engine/preinstalled
-  - github.com/official-library/rocketblend/blender/addons/web3d-x3dvrml2-format/preinstalled
+    - github.com/rocketblend/official-library/packages/blender/addons/pose-library/pre-installed
+    - github.com/rocketblend/official-library/packages/blender/addons/biovision-motion-capture-bvh-format/pre-installed
+    - github.com/rocketblend/official-library/packages/blender/addons/fbx-format/pre-installed
+    - github.com/rocketblend/official-library/packages/blender/addons/stl-format/pre-installed
+    - github.com/rocketblend/official-library/packages/blender/addons/scalable-vector-graphics-svg-11-format/pre-installed
+    - github.com/rocketblend/official-library/packages/blender/addons/stanford-ply-format/pre-installed
+    - github.com/rocketblend/official-library/packages/blender/addons/uv-layout/pre-installed
+    - github.com/rocketblend/official-library/packages/blender/addons/wavefront-obj-format-legacy/pre-installed
+    - github.com/rocketblend/official-library/packages/blender/addons/gltf-20-format/pre-installed
+    - github.com/rocketblend/official-library/packages/blender/addons/wavefront-obj-format-legacy/pre-installed
+    - github.com/rocketblend/official-library/packages/blender/addons/cycles-render-engine/pre-installed
+    - github.com/rocketblend/official-library/packages/blender/addons/web3d-x3dvrml2-format/pre-installed
   sources:
-  - executable: blender-2.83.12-linux64/blender
-    platform: linux
-    url: https://download.blender.org/release/Blender2.83/blender-2.83.12-linux64.tar.xz
-  - executable: Blender.app/Contents/MacOS/blender
-    platform: macos/intel
-    url: https://download.blender.org/release/Blender2.83/blender-2.83.12-macOS.dmg
-  - executable: blender-2.83.12-windows64/blender.exe
-    platform: windows
-    url: https://download.blender.org/release/Blender2.83/blender-2.83.12-windows64.zip
+    - executable: blender-2.83.12-linux64/blender
+      platform: linux
+      url: https://download.blender.org/release/Blender2.83/blender-2.83.12-linux64.tar.xz
+    - executable: Blender.app/Contents/MacOS/blender
+      platform: macos/intel
+      url: https://download.blender.org/release/Blender2.83/blender-2.83.12-macOS.dmg
+    - executable: blender-2.83.12-windows64/blender.exe
+      platform: windows
+      url: https://download.blender.org/release/Blender2.83/blender-2.83.12-windows64.zip
   version: 2.83.12
