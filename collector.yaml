@@ -4,12 +4,6 @@ collector:
   parallelism: 2
   delay: 5s
 collections:
-  - name: base
-    platforms:
-      - windows
-      - linux
-      - macos/intel
-      - macos/apple
   - name: blender
     platforms:
       - windows
@@ -29,11 +23,3 @@ collections:
       - github.com/official-library/rocketblend/blender/addons/wavefront-obj-format-legacy/preinstalled
       - github.com/official-library/rocketblend/blender/addons/cycles-render-engine/preinstalled
       - github.com/official-library/rocketblend/blender/addons/web3d-x3dvrml2-format/preinstalled
-  # - name: rocketblend
-  #   platforms:
-  #     - windows
-  #     - linux
-  #     - macos/intel
-  #     - macos/apple
-  #   addons:
-  #     - github.com/rocketblend/official-library/addons/rocketblend/0.1.1

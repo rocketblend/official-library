@@ -1,0 +1,28 @@
+build:
+  addons:
+  - github.com/official-library/rocketblend/blender/addons/pose-library/preinstalled
+  - github.com/official-library/rocketblend/blender/addons/biovision-motion-capture-bvh-format/preinstalled
+  - github.com/official-library/rocketblend/blender/addons/fbx-format/preinstalled
+  - github.com/official-library/rocketblend/blender/addons/stl-format/preinstalled
+  - github.com/official-library/rocketblend/blender/addons/scalable-vector-graphics-svg-11-format/preinstalled
+  - github.com/official-library/rocketblend/blender/addons/stanford-ply-format/preinstalled
+  - github.com/official-library/rocketblend/blender/addons/uv-layout/preinstalled
+  - github.com/official-library/rocketblend/blender/addons/wavefront-obj-format-legacy/preinstalled
+  - github.com/official-library/rocketblend/blender/addons/gltf-20-format/preinstalled
+  - github.com/official-library/rocketblend/blender/addons/wavefront-obj-format-legacy/preinstalled
+  - github.com/official-library/rocketblend/blender/addons/cycles-render-engine/preinstalled
+  - github.com/official-library/rocketblend/blender/addons/web3d-x3dvrml2-format/preinstalled
+  sources:
+  - executable: blender-3.1.0-linux-x64/blender
+    platform: linux
+    url: https://download.blender.org/release/Blender3.1/blender-3.1.0-linux-x64.tar.xz
+  - executable: Blender.app/Contents/MacOS/blender
+    platform: macos/apple
+    url: https://download.blender.org/release/Blender3.1/blender-3.1.0-macos-arm64.dmg
+  - executable: Blender.app/Contents/MacOS/blender
+    platform: macos/intel
+    url: https://download.blender.org/release/Blender3.1/blender-3.1.0-macos-x64.dmg
+  - executable: blender-3.1.0-windows-x64/blender.exe
+    platform: windows
+    url: https://download.blender.org/release/Blender3.1/blender-3.1.0-windows-x64.zip
+  version: 3.1.0
