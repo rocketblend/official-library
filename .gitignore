@@ -4,6 +4,8 @@
 # direnv
 .envrc
 
-# Hack to not include the actual build/addon files
-*/*/*/*/*/
-*/*/*/*.zip
+# Blender
+*.blend1
+
+# Logs
+/logs
