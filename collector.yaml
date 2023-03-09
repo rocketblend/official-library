@@ -1,15 +1,10 @@
 library: github.com/rocketblend/official-library
+outputDir: packages
 collector:
   agent: random
   parallelism: 2
   delay: 5s
 collections:
-  - name: base
-    platforms:
-      - windows
-      - linux
-      - macos/intel
-      - macos/apple
   - name: blender
     platforms:
       - windows
@@ -17,23 +12,15 @@ collections:
       - macos/intel
       - macos/apple
     addons:
-      - github.com/official-library/rocketblend/addons/blender/pose-library/preinstalled
-      - github.com/official-library/rocketblend/addons/blender/biovision-motion-capture-bvh-format/preinstalled
-      - github.com/official-library/rocketblend/addons/blender/fbx-format/preinstalled
-      - github.com/official-library/rocketblend/addons/blender/stl-format/preinstalled
-      - github.com/official-library/rocketblend/addons/blender/scalable-vector-graphics-svg-11-format/preinstalled
-      - github.com/official-library/rocketblend/addons/blender/stanford-ply-format/preinstalled
-      - github.com/official-library/rocketblend/addons/blender/uv-layout/preinstalled
-      - github.com/official-library/rocketblend/addons/blender/wavefront-obj-format-legacy/preinstalled
-      - github.com/official-library/rocketblend/addons/blender/gltf-20-format/preinstalled
-      - github.com/official-library/rocketblend/addons/blender/wavefront-obj-format-legacy/preinstalled
-      - github.com/official-library/rocketblend/addons/blender/cycles-render-engine/preinstalled
-      - github.com/official-library/rocketblend/addons/blender/web3d-x3dvrml2-format/preinstalled
-  # - name: rocketblend
-  #   platforms:
-  #     - windows
-  #     - linux
-  #     - macos/intel
-  #     - macos/apple
-  #   addons:
-  #     - github.com/rocketblend/official-library/addons/rocketblend/0.1.1
+      - github.com/rocketblend/official-library/packages/blender/addons/pose-library/preinstalled
+      - github.com/rocketblend/official-library/packages/blender/addons/biovision-motion-capture-bvh-format/preinstalled
+      - github.com/rocketblend/official-library/packages/blender/addons/fbx-format/preinstalled
+      - github.com/rocketblend/official-library/packages/blender/addons/stl-format/preinstalled
+      - github.com/rocketblend/official-library/packages/blender/addons/scalable-vector-graphics-svg-11-format/preinstalled
+      - github.com/rocketblend/official-library/packages/blender/addons/stanford-ply-format/preinstalled
+      - github.com/rocketblend/official-library/packages/blender/addons/uv-layout/preinstalled
+      - github.com/rocketblend/official-library/packages/blender/addons/wavefront-obj-format-legacy/preinstalled
+      - github.com/rocketblend/official-library/packages/blender/addons/gltf-20-format/preinstalled
+      - github.com/rocketblend/official-library/packages/blender/addons/wavefront-obj-format-legacy/preinstalled
+      - github.com/rocketblend/official-library/packages/blender/addons/cycles-render-engine/preinstalled
+      - github.com/rocketblend/official-library/packages/blender/addons/web3d-x3dvrml2-format/preinstalled
