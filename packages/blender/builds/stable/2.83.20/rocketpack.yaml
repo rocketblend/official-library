@@ -11,7 +11,7 @@ build:
     - github.com/rocketblend/official-library/packages/blender/addons/gltf-20-format/pre-installed
     - github.com/rocketblend/official-library/packages/blender/addons/wavefront-obj-format-legacy/pre-installed
     - github.com/rocketblend/official-library/packages/blender/addons/cycles-render-engine/pre-installed
-    - github.com/rocketblend/official-library/packages/blender/addons/web3d-x3dvrml2-format/pre-installed
+    - github.com/rocketblend/official-library/packages/community/addons/web3d-x3dvrml2-format/pre-installed
   sources:
     - executable: blender-2.83.20-linux-x64/blender
       platform: linux
