@@ -17,7 +17,7 @@ if bpy.app.background:
         s = re.sub(r'[^\w-]', '', s)
         return s.lower()
 
-    BLEND_DIR = os.path.dirname(bpy.data.filepath)
+    OUTPUT_DIR = os.path.join(bpy.data.filepath, 'packages')
     ADDONS_FOLDER = 'addons'
 
     # Loop over each addon and write its name to a separate YAML file
@@ -38,7 +38,7 @@ if bpy.app.background:
             addon_folder_category = 'unknown'
 
         # Write the addon dictionary to a YAML file in the appropriate folder
-        addon_folder_name = os.path.join(BLEND_DIR, addon_folder_category, ADDONS_FOLDER, make_friendly(addon_display_name), TAG)
+        addon_folder_name = os.path.join(OUTPUT_DIR, addon_folder_category, ADDONS_FOLDER, make_friendly(addon_display_name), TAG)
         if not os.path.exists(addon_folder_name):
             os.makedirs(addon_folder_name)
 
