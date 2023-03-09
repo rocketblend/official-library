@@ -17,7 +17,7 @@ if bpy.app.background:
         s = re.sub(r'[^\w-]', '', s)
         return s.lower()
 
-    OUTPUT_DIR = os.path.join(bpy.data.filepath, 'packages')
+    OUTPUT_DIR = os.path.join(os.path.dirname(bpy.data.filepath), 'packages')
     ADDONS_FOLDER = 'addons'
 
     # Loop over each addon and write its name to a separate YAML file
