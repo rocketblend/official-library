@@ -4,12 +4,13 @@ Official build and addon library for [RocketBlend](https://github.com/rocketblen
 
 ## Example Builds
 
-* `github.com/rocketblend/official-library/packages/blender/builds/stable/2.93.9`
+* `github.com/rocketblend/official-library/packages/blender/builds/stable/2.93.16`
 * `github.com/rocketblend/official-library/packages/blender/builds/stable/3.0.1`
 * `github.com/rocketblend/official-library/packages/blender/builds/stable/3.1.2`
 * `github.com/rocketblend/official-library/packages/blender/builds/stable/3.2.2`
-* `github.com/rocketblend/official-library/packages/blender/builds/stable/3.3.2`
+* `github.com/rocketblend/official-library/packages/blender/builds/stable/3.3.5`
 * `github.com/rocketblend/official-library/packages/blender/builds/stable/3.4.1`
+* `github.com/rocketblend/official-library/packages/blender/builds/stable/3.5.0`
 
 ## Tools
 
