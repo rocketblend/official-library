@@ -14,12 +14,15 @@ build:
   - github.com/rocketblend/official-library/packages/community/addons/web3d-x3dvrml2-format/pre-installed
   sources:
     linux:
-      resource: blender-2.82a-linux64/blender
-      uri: https://download.blender.org/release/Blender2.82/blender-2.82a-linux64.tar.xz
+      resource: blender-3.6.0-linux-x64/blender
+      uri: https://download.blender.org/release/Blender3.6/blender-3.6.0-linux-x64.tar.xz
+    macos/apple:
+      resource: Blender.app/Contents/MacOS/blender
+      uri: https://download.blender.org/release/Blender3.6/blender-3.6.0-macos-arm64.dmg
     macos/intel:
       resource: Blender.app/Contents/MacOS/blender
-      uri: https://download.blender.org/release/Blender2.82/blender-2.82a-macOS.dmg
+      uri: https://download.blender.org/release/Blender3.6/blender-3.6.0-macos-x64.dmg
     windows:
-      resource: blender-2.82a-windows64/blender.exe
-      uri: https://download.blender.org/release/Blender2.82/blender-2.82a-windows64.zip
-  version: 2.82.0
+      resource: blender-3.6.0-windows-x64/blender.exe
+      uri: https://download.blender.org/release/Blender3.6/blender-3.6.0-windows-x64.zip
+  version: 3.6.0
