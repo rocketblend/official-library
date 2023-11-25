@@ -11,7 +11,8 @@ Official build and addon library for [RocketBlend](https://github.com/rocketblen
 * `github.com/rocketblend/official-library/packages/blender/builds/stable/3.3.8`
 * `github.com/rocketblend/official-library/packages/blender/builds/stable/3.4.1`
 * `github.com/rocketblend/official-library/packages/blender/builds/stable/3.5.1`
-* `github.com/rocketblend/official-library/packages/blender/builds/stable/3.6.2`
+* `github.com/rocketblend/official-library/packages/blender/builds/stable/3.6.5`
+* `github.com/rocketblend/official-library/packages/blender/builds/stable/4.0.1`
 
 ## Tools
 
