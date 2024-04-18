@@ -1,0 +1,27 @@
+{
+  "spec": "0.1.0",
+  "type": "build",
+  "version": "2.93.9",
+  "sources": [
+    {
+      "resource": "blender-2.93.9-linux-x64/blender",
+      "uri": "https://download.blender.org/release/Blender2.93/blender-2.93.9-linux-x64.tar.xz",
+      "platform": "linux"
+    },
+    {
+      "resource": "Blender.app/Contents/MacOS/blender",
+      "uri": "https://download.blender.org/release/Blender2.93/blender-2.93.9-macos-arm64.dmg",
+      "platform": "macos/apple"
+    },
+    {
+      "resource": "Blender.app/Contents/MacOS/blender",
+      "uri": "https://download.blender.org/release/Blender2.93/blender-2.93.9-macos-x64.dmg",
+      "platform": "macos/intel"
+    },
+    {
+      "resource": "blender-2.93.9-windows-x64/blender.exe",
+      "uri": "https://download.blender.org/release/Blender2.93/blender-2.93.9-windows-x64.zip",
+      "platform": "windows"
+    }
+  ]
+}

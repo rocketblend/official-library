@@ -1,0 +1,22 @@
+{
+  "spec": "0.1.0",
+  "type": "build",
+  "version": "2.83.5",
+  "sources": [
+    {
+      "resource": "blender-2.83.5-linux64/blender",
+      "uri": "https://download.blender.org/release/Blender2.83/blender-2.83.5-linux64.tar.xz",
+      "platform": "linux"
+    },
+    {
+      "resource": "Blender.app/Contents/MacOS/blender",
+      "uri": "https://download.blender.org/release/Blender2.83/blender-2.83.5-macOS.dmg",
+      "platform": "macos/intel"
+    },
+    {
+      "resource": "blender-2.83.5-windows64/blender.exe",
+      "uri": "https://download.blender.org/release/Blender2.83/blender-2.83.5-windows64.zip",
+      "platform": "windows"
+    }
+  ]
+}

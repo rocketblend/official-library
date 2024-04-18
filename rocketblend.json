@@ -1,0 +1,9 @@
+{
+    "spec": "0.0.0",
+    "dependencies": [
+      {
+        "reference": "github.com/lazercube/personal-library/development/v0/builds/blender/3.6.0",
+        "type": "build"
+      }
+    ]
+}
