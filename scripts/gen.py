@@ -48,10 +48,10 @@ if bpy.app.background:
             folder_path = os.path.join(OUTPUT_DIR, ADDONS_FOLDER, make_friendly(addon_display_name), TAG)
 
         # Write the addon dictionary to a JSON file in the appropriate folder
-        if not os.path.exists(addon_folder_name):
-            os.makedirs(addon_folder_name)
+        if not os.path.exists(folder_path):
+            os.makedirs(folder_path)
 
-        file_name = os.path.join(addon_folder_name, PACKAGEFILE)
+        file_name = os.path.join(folder_path, PACKAGEFILE)
         with open(file_name, 'w') as f:
             json.dump(addon_dict, f, indent=4)
 
