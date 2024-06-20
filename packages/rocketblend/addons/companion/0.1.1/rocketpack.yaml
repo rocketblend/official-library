@@ -1,6 +1,0 @@
-addon:
-  name: rocketblend-companion
-  version: 0.1.1
-  source:
-    file: rocketblend-companion.zip
-    url: https://github.com/rocketblend/rocketblend-package/releases/download/v0.1.1/rocketblend-companion.zip
