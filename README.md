@@ -1,6 +1,6 @@
 # Official-library
 
-Official build and add-on library for [RocketBlend](https://github.com/rocketblend/rocketblend)
+Official build and addon library for [RocketBlend](https://github.com/rocketblend/rocketblend)
 
 ## Example Builds
 
