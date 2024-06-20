@@ -1,0 +1,27 @@
+{
+  "spec": "0.1.0",
+  "type": "build",
+  "version": "3.6.12",
+  "sources": [
+    {
+      "resource": "blender-3.6.12-linux-x64/blender",
+      "uri": "https://download.blender.org/release/Blender3.6/blender-3.6.12-linux-x64.tar.xz",
+      "platform": "linux"
+    },
+    {
+      "resource": "Blender.app/Contents/MacOS/blender",
+      "uri": "https://download.blender.org/release/Blender3.6/blender-3.6.12-macos-arm64.dmg",
+      "platform": "macos/apple"
+    },
+    {
+      "resource": "Blender.app/Contents/MacOS/blender",
+      "uri": "https://download.blender.org/release/Blender3.6/blender-3.6.12-macos-x64.dmg",
+      "platform": "macos/intel"
+    },
+    {
+      "resource": "blender-3.6.12-windows-x64/blender.exe",
+      "uri": "https://download.blender.org/release/Blender3.6/blender-3.6.12-windows-x64.zip",
+      "platform": "windows"
+    }
+  ]
+}
