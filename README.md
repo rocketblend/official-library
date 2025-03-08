@@ -26,7 +26,10 @@ By default, packages from this repository are aliased so can be refered by their
 - `addons` = `github.com/rocketblend/official-library/packages/v0/addons`
 - `blender` = `github.com/rocketblend/official-library/packages/v0/builds/blender`
 
-Therefore, the following paths are equivalent `github.com/rocketblend/official-library/packages/v0/builds/blender/3.6.21`, `builds/blender/3.6.21` and `blender/3.6.21`
+Therefore, the following references are all equivalent:
+- `github.com/rocketblend/official-library/packages/v0/builds/blender/3.6.21`
+- `builds/blender/3.6.21`
+- `blender/3.6.21`
 
 ## Example Builds
 
