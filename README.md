@@ -2,14 +2,6 @@
 
 Official build and addon library for [RocketBlend](https://github.com/rocketblend/rocketblend)
 
-By default, packages from this repository are aliased so can be refered by their shorten references:
-
-- `builds` = `github.com/rocketblend/official-library/packages/v0/builds`
-- `addons` = `github.com/rocketblend/official-library/packages/v0/addons`
-- `blender` = `github.com/rocketblend/official-library/packages/v0/builds/blender`
-
-Therefore, the following paths are equivalent `github.com/rocketblend/official-library/packages/v0/builds/blender/3.6.21`, `builds/blender/3.6.21` and `blender/3.6.21`
-
 ## How to use
 
 To use one of the packages from this repository in your project, run the following command:
@@ -25,6 +17,16 @@ rocketblend install blender/3.6.21
 ```
 
 See the [RocketBlend documentation](https://docs.rocketblend.io/getting-started/quick-start) for more information.
+
+## Aliases
+
+By default, packages from this repository are aliased so can be refered by their shorten references:
+
+- `builds` = `github.com/rocketblend/official-library/packages/v0/builds`
+- `addons` = `github.com/rocketblend/official-library/packages/v0/addons`
+- `blender` = `github.com/rocketblend/official-library/packages/v0/builds/blender`
+
+Therefore, the following paths are equivalent `github.com/rocketblend/official-library/packages/v0/builds/blender/3.6.21`, `builds/blender/3.6.21` and `blender/3.6.21`
 
 ## Example Builds
 
