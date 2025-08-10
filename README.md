@@ -10,10 +10,10 @@ To use one of the packages from this repository in your project, run the followi
 rocketblend install <package>
 ```
 
-For example, to install Blender 3.6.21, run:
+For example, to install Blender 4.5.1, run:
 
 ```bash
-rocketblend install blender/3.6.21
+rocketblend install blender/4.5.1
 ```
 
 See the [RocketBlend documentation](https://docs.rocketblend.io/getting-started/quick-start) for more information.
@@ -39,11 +39,13 @@ Therefore, the following references are all equivalent:
 * `blender/3.3.21` - LTS
 * `blender/3.4.1`
 * `blender/3.5.1`
-* `blender/3.6.21` - LTS
+* `blender/3.6.23` - LTS
 * `blender/4.0.2`
 * `blender/4.1.1`
-* `blender/4.2.7` - LTS
+* `blender/4.2.12` - LTS
 * `blender/4.3.2`
+* `blender/4.4.3`
+* `blender/4.5.1` - LTS
 
 ## Tools
 
