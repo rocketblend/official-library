@@ -1,0 +1,22 @@
+{
+  "spec": "0.1.0",
+  "type": "build",
+  "version": "5.0.0",
+  "sources": [
+    {
+      "resource": "blender-5.0.0-linux-x64/blender",
+      "uri": "https://download.blender.org/release/Blender5.0/blender-5.0.0-linux-x64.tar.xz",
+      "platform": "linux"
+    },
+    {
+      "resource": "Blender.app/Contents/MacOS/blender",
+      "uri": "https://download.blender.org/release/Blender5.0/blender-5.0.0-macos-arm64.dmg",
+      "platform": "macos/apple"
+    },
+    {
+      "resource": "blender-5.0.0-windows-arm64/blender.exe",
+      "uri": "https://download.blender.org/release/Blender5.0/blender-5.0.0-windows-arm64.zip",
+      "platform": "windows"
+    }
+  ]
+}
