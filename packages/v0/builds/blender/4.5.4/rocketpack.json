@@ -19,8 +19,8 @@
       "platform": "macos/intel"
     },
     {
-      "resource": "blender-4.5.4-windows-arm64/blender.exe",
-      "uri": "https://download.blender.org/release/Blender4.5/blender-4.5.4-windows-arm64.zip",
+      "resource": "blender-4.5.4-windows-x64/blender.exe",
+      "uri": "https://download.blender.org/release/Blender4.5/blender-4.5.4-windows-x64.zip",
       "platform": "windows"
     }
   ]
